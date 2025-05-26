@@ -1,0 +1,51 @@
+/* Basic body styling */
+body {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    background-color: skyblue;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+#mybutton {
+    font-size: 50px;
+    padding: 15px 35px;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#mybutton:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+input
+{
+    font-size: large;
+}
+button{
+    font-size:large;
+}
+p{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

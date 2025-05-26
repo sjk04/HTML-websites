@@ -1,0 +1,97 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form container */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Styling for labels and inputs */
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 10px;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+input[type="checkbox"] + label, input[type="radio"] + label {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Results and message styling */
+#subresult, #paymentresul {
+    font-size: 16px;
+    color: #555;
+    margin-top: 15px;
+}
+
+#subresult {
+    color: #ff5722;
+}
+
+#paymentresul {
+    color: #007BFF;
+}
+
+/* Payment options styling */
+input[type="radio"] + label {
+    font-size: 15px;
+    color: #666;
+}
+
+input[type="checkbox"] + label {
+    font-size: 15px;
+    color: #666;
+}
+
+/* Media query for responsive behavior */
+@media (max-width: 500px) {
+    form {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    label, #subresult, #paymentresul {
+        font-size: 14px;
+    }
+}
+
